@@ -22,4 +22,3 @@ class LoginForm(FlaskForm):
     remember_cookie = BooleanField('Remember me')
     submit_button = SubmitField('Login')
 
-print("")
